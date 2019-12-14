@@ -19,7 +19,7 @@ No mueran en su miserable intento de trabajar con una versión estable de rails 
 `git clone https://github.com/nildiert/rails5-docker.git && cd rails5-docker`
 
 
-### Dar permisos para editar los archivos con tu usuario
+### Cambiar propietario de usuario (Solo haganlo y ya)
 
 `sudo chown $USER:$USER -R .`
 
