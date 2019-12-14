@@ -1,5 +1,8 @@
 # README
 
+No mueran en su miserable intento de trabajar con una versión estable de rails 5 con docker y que despliegue en Heroku sin problemas, yo ya morí por ustedes. Clonen este repositorio y ajá!
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
