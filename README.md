@@ -2,7 +2,7 @@
 
 No mueran en su miserable intento de trabajar con una versión estable de rails 5 con docker y que despliegue en Heroku sin problemas, yo ya morí por ustedes. Clonen este repositorio y ajá!
 
-![Image](https://phrase.com/blog/wp-content/uploads/2017/09/Ruby_on_Rails-Docker_Compose-768x512.jpg)
+![Image](https://www.freecodecamp.org/news/content/images/2019/08/image-136-2.png)
 
 * Ruby versión
 
