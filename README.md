@@ -19,6 +19,11 @@ No mueran en su miserable intento de trabajar con una versión estable de rails 
 `git clone https://github.com/nildiert/rails5-docker.git && cd rails5-docker`
 
 
+### Dar permisos para editar los archivos con tu usuario
+
+`sudo chown $USER:$USER -R .`
+
+
 ### Crear la base de datos
 
 `docker-compose run --rm web rails db:create`
@@ -26,6 +31,8 @@ No mueran en su miserable intento de trabajar con una versión estable de rails 
 
 ### Correr el contenedor
 `docker-compose up`
+
+`docker-compose up -d`
 
 
 
