@@ -1,27 +1,29 @@
-# README
+# DOCKER-COMPOSE RAILS 5
 
 No mueran en su miserable intento de trabajar con una versión estable de rails 5 con docker y que despliegue en Heroku sin problemas, yo ya morí por ustedes. Clonen este repositorio y ajá!
 
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
 * Ruby version
 
-* System dependencies
+`ruby '2.5.7'`
 
-* Configuration
+* Rails version
 
-* Database creation
+`'rails', '~> 5.2.0'`
 
-* Database initialization
+## Instrucciones para dummies y mancos ...
 
-* How to run the test suite
+### Clonar el repositorio
 
-* Services (job queues, cache servers, search engines, etc.)
+`git clone https://github.com/nildiert/rails5-docker.git && cd rails5-docker`
 
-* Deployment instructions
+### Crear la base de datos
 
-* ...
+`docker-compose run --rm web rails db:create`
+
+### Correr el contenedor
+`docker-compose up`
+
+### Ejecutar comandos de rails
+
+`docker-compose run --rm web rails generate model User name:string status:boolean`
+`docker-compose run --rm web rails db:migrate`
