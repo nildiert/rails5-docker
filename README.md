@@ -2,7 +2,7 @@
 
 No mueran en su miserable intento de trabajar con una versión estable de rails 5 con docker y que despliegue en Heroku sin problemas, yo ya morí por ustedes. Clonen este repositorio y ajá!
 
-[![Image](https://embedwistia-a.akamaihd.net/deliveries/92a006915eb11bced94dfc85b1a1de5e34e13d0d.webp?image_crop_resized=492x277)]
+![Image](https://embedwistia-a.akamaihd.net/deliveries/92a006915eb11bced94dfc85b1a1de5e34e13d0d.webp)
 
 * Ruby versión
 
